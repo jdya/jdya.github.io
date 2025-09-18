@@ -226,16 +226,6 @@
             color: white;
         }
         
-        .skill-badge {
-            display: inline-block;
-            background: linear-gradient(135deg, var(--secondary-color), #5dade2);
-            color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            margin: 5px;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
         
         .contact-section {
             background: var(--bg-light);
@@ -297,19 +287,10 @@
                         <a class="nav-link" href="#home">홈</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">소개</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#experience">경력</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">프로젝트</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">기술</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">연락처</a>
                     </li>
                 </ul>
             </div>
@@ -323,9 +304,8 @@
                 <div class="col-lg-6">
                     <div class="hero-content">
                         <h1 class="hero-title">정대영</h1>
-                        <p class="hero-subtitle">교육 기술 전문가 & 개발자</p>
-                        <p class="lead">교육 현장 경험을 바탕으로 실용적인 교육 솔루션을 개발합니다.</p>
-                        <a href="#about" class="btn btn-custom btn-lg">더 알아보기</a>
+                        <p class="hero-subtitle">교육 전문가 & 개발자</p>
+                        <a href="#experience" class="btn btn-custom btn-lg">경력 보기</a>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
@@ -337,18 +317,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <h2 class="section-title">주요 성과</h2>
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <p class="lead">교육 현장에서의 풍부한 경험을 바탕으로 실용적이고 혁신적인 교육 솔루션을 개발하고 있습니다. 
-                    앱 개발, AI 활용 교육, 디지털 교육 도구 제작 등 다양한 분야에서 성과를 거두었습니다.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Experience Section -->
     <section id="experience" class="py-5" style="background-color: var(--bg-light);">
@@ -360,7 +328,7 @@
                         <div class="timeline-item">
                             <div class="timeline-year">2023-2025</div>
                             <div class="timeline-title">AI 활용 연수 강사</div>
-                            <p>인공지능 기술을 교육 현장에 적용하는 방법을 연구하고 교사들에게 전달하는 연수를 진행하고 있습니다.</p>
+                            <p>인공지능을 교육 현장에 적용하는 방법을 연구하고 교사들에게 전달하는 연수를 진행하고 있습니다.</p>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-year">2020-2022</div>
@@ -400,11 +368,6 @@
                             <p class="card-text">교육 현장에서 활용할 수 있는 종합적인 클래스 관리 시스템입니다. 
                             학생 관리, 수업 계획, 평가 시스템 등 교사가 필요로 하는 모든 기능을 통합하여 제공합니다.</p>
                             <div class="mt-3">
-                                <span class="skill-badge">웹 개발</span>
-                                <span class="skill-badge">교육 플랫폼</span>
-                                <span class="skill-badge">데이터베이스</span>
-                            </div>
-                            <div class="mt-3">
                                 <a href="https://classtime.kr" target="_blank" class="btn btn-project">
                                     <i class="fas fa-external-link-alt me-1"></i>
                                     사이트 방문
@@ -425,11 +388,6 @@
                             <p class="card-text">수학 기초 학습을 위한 맞춤형 학습 플랫폼입니다. 
                             개별 학습자의 수준에 맞는 문제를 제공하고, 학습 진도를 체계적으로 관리할 수 있는 시스템입니다.</p>
                             <div class="mt-3">
-                                <span class="skill-badge">수학 교육</span>
-                                <span class="skill-badge">개별화 학습</span>
-                                <span class="skill-badge">진도 관리</span>
-                            </div>
-                            <div class="mt-3">
                                 <a href="https://base.up.railway.app" target="_blank" class="btn btn-project">
                                     <i class="fas fa-external-link-alt me-1"></i>
                                     사이트 방문
@@ -442,79 +400,7 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-5" style="background-color: var(--bg-light);">
-        <div class="container">
-            <h2 class="section-title">기술 스택</h2>
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <div class="mb-4">
-                        <h4 class="mb-3">개발 기술</h4>
-                        <span class="skill-badge">HTML5</span>
-                        <span class="skill-badge">CSS3</span>
-                        <span class="skill-badge">JavaScript</span>
-                        <span class="skill-badge">Python</span>
-                        <span class="skill-badge">React</span>
-                        <span class="skill-badge">Node.js</span>
-                        <span class="skill-badge">MongoDB</span>
-                        <span class="skill-badge">MySQL</span>
-                    </div>
-                    <div class="mb-4">
-                        <h4 class="mb-3">교육 기술</h4>
-                        <span class="skill-badge">AI 활용 교육</span>
-                        <span class="skill-badge">디지털 앱 개발</span>
-                        <span class="skill-badge">온라인 교육 플랫폼</span>
-                        <span class="skill-badge">교육 콘텐츠 제작</span>
-                        <span class="skill-badge">학습 분석</span>
-                    </div>
-                    <div class="mb-4">
-                        <h4 class="mb-3">도구 및 환경</h4>
-                        <span class="skill-badge">Git</span>
-                        <span class="skill-badge">Docker</span>
-                        <span class="skill-badge">AWS</span>
-                        <span class="skill-badge">Railway</span>
-                        <span class="skill-badge">Figma</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2 class="section-title">연락처</h2>
-            <div class="row">
-                <div class="col-lg-4 mb-4">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <h5>이메일</h5>
-                        <p>jdypro@gmail.com</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <h5>전화</h5>
-                        <p>010-3313-5808</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <h5>위치</h5>
-                        <p>대한민국</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="footer">
